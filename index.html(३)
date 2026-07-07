@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievers Academy Bikaner | Premier Coaching for SSC, RPSC, Railway & Banking</title>
+    
+    <!-- SEO and Meta Tags -->
+    <meta name="description" content="Achievers Academy Bikaner - Premier Coaching Institute for SSC CGL, CHSL, Rajasthan LDC, Railway ALP, CET, Bank PO & Clerk. Led by a Team of Inspectors. 200+ selections in the first year.">
+    <meta name="keywords" content="Achievers Academy Bikaner, SSC Coaching Bikaner, LDC Coaching Rajasthan, Railway ALP Coaching, Bank PO Clerk Bikaner, JNV Colony Bikaner Coaching">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Achievers Academy Bikaner - Turn Preparation into Selection">
+    <meta property="og:description" content="Join Bikaner's most trusted coaching center. Upcoming premium batches start 28 Jan 2026. Free 7-day demo classes available.">
+    <meta property="og:type" content="website">
+    
+    <!-- Tailwind CSS & Google Fonts -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        luxuryDark: '#050B14',
+                        luxuryNavy: '#0A1424',
+                        goldPrimary: '#D4AF37',
+                        goldSecondary: '#C5A880',
+                    },
+                    fontFamily: {
+                        cinzel: ['Cinzel', 'serif'],
+                        poppins: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #050B14;
+            color: #F4F6FC;
+            overflow-x: hidden;
+        }
+        .luxury-gradient {
+            background: linear-gradient(135deg, #0A1424 0%, #050B14 100%);
+        }
+        .gold-glow {
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.15);
+        }
+        .gold-border-gradient {
+            border-image: linear-gradient(to right, #D4AF37, #C5A880) 1;
+        }
+        .glass-card {
+            background: rgba(10, 20, 36, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(212, 175, 55, 0.15);
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #050B14;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #D4AF37;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="selection:bg-goldPrimary selection:text-luxuryDark">
+
+    <!-- Premium Header -->
+    <header class="sticky top-0 z-50 glass-card transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="w-12 h-12 rounded-full bg-gradient-to-tr from-goldPrimary to-goldSecondary flex items-center justify-center shadow-lg">
+                    <span class="font-cinzel text-xl font-bold text-luxuryDark">A</span>
+                </div>
+                <div>
+                    <h1 class="font-cinzel text-lg sm:text-xl font-bold tracking-wider text-goldPrimary">ACHIEVERS ACADEMY</h1>
+                    <p class="text-xs text-goldSecondary tracking-widest uppercase hidden sm:block">A Team of Inspectors</p>
+                </div>
+            </div>
+            
+            <nav class="hidden md:flex space-x-6 text-sm font-medium tracking-wide">
+                <a href="#about" class="hover:text-goldPrimary transition-colors" data-en="About" data-hi="परिचय">About</a>
+                <a href="#courses" class="hover:text-goldPrimary transition-colors" data-en="Courses" data-hi="पाठ्यक्रम">Courses</a>
+                <a href="#books" class="hover:text-goldPrimary transition-colors" data-en="Publications" data-hi="पुस्तकें">Publications</a>
+                <a href="#dashboards" class="hover:text-goldPrimary transition-colors" data-en="Student Portal" data-hi="छात्र पोर्टल">Student Portal</a>
+                <a href="#admission" class="hover:text-goldPrimary transition-colors" data-en="Admission" data-hi="प्रवेश">Admission</a>
+            </nav>
+
+            <div class="flex items-center space-x-4">
+                <!-- Language Toggle -->
+                <button onclick="toggleLanguage()" class="border border-goldPrimary/40 px-3 py-1 rounded text-xs tracking-wider text-goldPrimary hover:bg-goldPrimary hover:text-luxuryDark transition-all">
+                    <span id="langBtnText">HINDI</span>
+                </button>
+                <a href="#admission" class="bg-gradient-to-r from-goldPrimary to-goldSecondary text-luxuryDark px-5 py-2.5 rounded-full text-xs font-semibold uppercase tracking-wider hover:opacity-90 transition-all shadow-md">
+                    Apply Now
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Floating CTAs -->
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col space-y-3">
+        <a href="https://wa.me/918875765454" target="_blank" class="w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-lg text-white text-2xl hover:scale-110 transition-transform">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+918875765454" class="w-14 h-14 bg-goldPrimary rounded-full flex items-center justify-center shadow-lg text-luxuryDark text-xl hover:scale-110 transition-transform">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-[85vh] flex items-center justify-center luxury-gradient py-20 px-4">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-goldPrimary/5 via-transparent to-transparent pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
+            
+            <div class="space-y-6 text-center lg:text-left">
+                <span class="inline-block border border-goldPrimary/40 text-goldPrimary text-xs px-4 py-1.5 rounded-full uppercase tracking-widest bg-goldPrimary/5">
+                    🚀 New Batches Starting 28 Jan 2026
+                </span>
+                <h1 class="font-cinzel text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+                    Turn Your <span class="text-gradient bg-clip-text text-transparent bg-gradient-to-r from-goldPrimary to-goldSecondary">Preparation</span> Into Selection
+                </h1>
+                <p class="text-gray-300 max-w-xl mx-auto lg:mx-0 text-sm sm:text-base leading-relaxed" data-en="Empower your competitive exam journey with Bikaner's most prestigious academy. Expert learning pathways led by a dedicated Team of Inspectors." data-hi="बीकानेर के सबसे प्रतिष्ठित संस्थान के साथ सरकारी नौकरी की तैयारी करें। इंस्पेक्टरों की अनुभवी टीम के कुशल मार्गदर्शन में अपनी सफलता सुनिश्चित करें।">
+                    Empower your competitive exam journey with Bikaner's most prestigious academy. Expert learning pathways led by a dedicated Team of Inspectors.
+                </p>
+                
+                <!-- Quick Highlights Counters -->
+                <div class="grid grid-cols-3 gap-4 pt-4 max-w-md mx-auto lg:mx-0">
+                    <div class="text-center p-3 glass-card rounded-xl">
+                        <span class="block text-2xl font-bold text-goldPrimary">200+</span>
+                        <span class="text-[10px] text-gray-400 uppercase tracking-wider" data-en="Selections" data-hi="कुल चयन">Selections</span>
+                    </div>
+                    <div class="text-center p-3 glass-card rounded-xl">
+                        <span class="block text-2xl font-bold text-goldPrimary">4.5★</span>
+                        <span class="text-[10px] text-gray-400 uppercase tracking-wider" data-en="Google Rating" data-hi="गूगल रेटिंग">Google Rating</span>
+                    </div>
+                    <div class="text-center p-3 glass-card rounded-xl">
+                        <span class="block text-2xl font-bold text-goldPrimary">7 Days</span>
+                        <span class="text-[10px] text-gray-400 uppercase tracking-wider" data-en="Free Demo" data-hi="मुफ़्त डेमो">Free Demo</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-4 pt-4">
+                    <a href="#admission" class="bg-gradient-to-r from-goldPrimary to-goldSecondary text-luxuryDark px-8 py-4 rounded-xl font-bold uppercase tracking-wider text-sm hover:scale-105 transition-all text-center">
+                        Register for Free Demo
+                    </a>
+                    <a href="#courses" class="border border-goldPrimary/40 hover:border-goldPrimary px-8 py-4 rounded-xl text-sm font-bold uppercase tracking-wider hover:bg-goldPrimary/5 transition-all text-center">
+                        Explore Courses
+                    </a>
+                </div>
+            </div>
+
+            <!-- Visual Feature Slide Card -->
+            <div class="relative flex justify-center">
+                <div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-goldPrimary to-goldSecondary opacity-25 blur-xl"></div>
+                <div class="relative w-full max-w-md glass-card rounded-2xl overflow-hidden shadow-2xl p-6 space-y-6">
+                    <div class="flex items-center justify-between border-b border-goldPrimary/20 pb-4">
+                        <span class="text-xs text-goldSecondary uppercase tracking-widest">Notification Alert</span>
+                        <span class="w-2.5 h-2.5 rounded-full bg-red-500 animate-ping"></span>
+                    </div>
+                    <div class="space-y-4">
+                        <h4 class="font-cinzel text-lg font-bold text-goldPrimary">Rajasthan LDC Recruitment</h4>
+                        <p class="text-xs text-gray-300 leading-relaxed" data-en="Specialized fast-track courses for the upcoming 10,644+ LDC state vacancies. Intensive exam coverage starting on January 28." data-hi="आगामी 10,644+ एलडीसी राज्य स्तरीय रिक्तियों के लिए विशेष तौर पर तैयार बैच। परीक्षा-उन्मुख सम्पूर्ण कवरेज 28 जनवरी से शुरू।">
+                            Specialized fast-track courses for the upcoming 10,644+ LDC state vacancies. Intensive exam coverage starting on January 28.
+                        </p>
+                        <div class="bg-luxuryDark/50 p-4 rounded-xl border border-goldPrimary/10">
+                            <div class="flex justify-between text-xs mb-1">
+                                <span class="text-gray-400">Batch Capacity Filled</span>
+                                <span class="text-goldPrimary font-semibold">82%</span>
+                            </div>
+                            <div class="w-full bg-luxuryNavy h-2 rounded-full overflow-hidden">
+                                <div class="bg-gradient-to-r from-goldPrimary to-goldSecondary h-full rounded-full" style="width: 82%"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-2">
+                        <a href="#admission" class="block w-full text-center bg-luxuryDark border border-goldPrimary/40 hover:border-goldPrimary text-goldPrimary py-3 rounded-xl text-xs font-semibold uppercase tracking-wider transition-all">
+                            Reserve My Seat
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 px-4 max-w-7xl mx-auto">
+        <div class="text-center space-y-4 mb-16">
+            <span class="text-goldPrimary text-xs uppercase tracking-widest">Our Legacy</span>
+            <h2 class="font-cinzel text-3xl sm:text-4xl font-bold">Why Achievers Academy?</h2>
+            <div class="w-24 h-1 bg-gradient-to-r from-goldPrimary to-goldSecondary mx-auto"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            <div class="glass-card p-8 rounded-2xl space-y-4 hover:-translate-y-2 transition-transform">
+                <div class="w-12 h-12 rounded-xl bg-goldPrimary/10 flex items-center justify-center text-goldPrimary text-xl">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <h3 class="font-cinzel text-lg font-bold text-goldPrimary">Inspector Mentorship</h3>
+                <p class="text-xs text-gray-300 leading-relaxed" data-en="Receive active learning and regular strategy formulations crafted directly by working officers & Inspectors." data-hi="सीधे कार्यरत अधिकारियों और इंस्पेक्टरों की टीम के नेतृत्व में सीखें और सटीक रणनीति के साथ तैयारी करें।">
+                    Receive active learning and regular strategy formulations crafted directly by working officers & Inspectors.
+                </p>
+            </div>
+
+            <div class="glass-card p-8 rounded-2xl space-y-4 hover:-translate-y-2 transition-transform">
+                <div class="w-12 h-12 rounded-xl bg-goldPrimary/10 flex items-center justify-center text-goldPrimary text-xl">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <h3 class="font-cinzel text-lg font-bold text-goldPrimary">Exclusive Material</h3>
+                <p class="text-xs text-gray-300 leading-relaxed" data-en="Complete physical published book series designed for competitive examinations by core subject specialists." data-hi="मुख्य विषय विशेषज्ञों द्वारा तैयार की गई परीक्षा-विशिष्ट 10+ प्रकाशित शारीरिक पुस्तकों की प्रीमियम श्रृंखला।">
+                    Complete physical published book series designed for competitive examinations by core subject specialists.
+                </p>
+            </div>
+
+            <div class="glass-card p-8 rounded-2xl space-y-4 hover:-translate-y-2 transition-transform">
+                <div class="w-12 h-12 rounded-xl bg-goldPrimary/10 flex items-center justify-center text-goldPrimary text-xl">
+                    <i class="fas fa-parking"></i>
+                </div>
+                <h3 class="font-cinzel text-lg font-bold text-goldPrimary">Campus Parking</h3>
+                <p class="text-xs text-gray-300 leading-relaxed" data-en="Extensive on-site parking facilities with secured dedicated garage slots and quiet classroom chambers." data-hi="सुरक्षित समर्पित गैराज स्लॉट, ऑन-साइट पार्किंग और शांत वातानुकूलित क्लासरूम चैंबर।">
+                    Extensive on-site parking facilities with secured dedicated garage slots and quiet classroom chambers.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Interactive Course Finder -->
+    <section id="courses" class="py-24 luxury-gradient px-4">
+        <div class="max-w-7xl mx-auto space-y-12">
+            
+            <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-goldPrimary/20 pb-8">
+                <div class="space-y-3">
+                    <span class="text-goldPrimary text-xs uppercase tracking-widest">Comprehensive Programs</span>
+                    <h2 class="font-cinzel text-3xl sm:text-4xl font-bold">Explore Our Courses</h2>
+                </div>
+                <!-- Course Filter Tabs -->
+                <div class="flex flex-wrap gap-2">
+                    <button onclick="filterCourses('all')" class="course-tab-btn active bg-goldPrimary text-luxuryDark px-4 py-2 rounded-lg text-xs font-semibold tracking-wider transition-all">ALL</button>
+                    <button onclick="filterCourses('ssc')" class="course-tab-btn border border-goldPrimary/20 hover:border-goldPrimary px-4 py-2 rounded-lg text-xs font-semibold tracking-wider transition-all">SSC</button>
+                    <button onclick="filterCourses('state')" class="course-tab-btn border border-goldPrimary/20 hover:border-goldPrimary px-4 py-2 rounded-lg text-xs font-semibold tracking-wider transition-all">STATE EXAMS</button>
+                    <button onclick="filterCourses('railway')" class="course-tab-btn border border-goldPrimary/20 hover:border-goldPrimary px-4 py-2 rounded-lg text-xs font-semibold tracking-wider transition-all">RAILWAY</button>
+                    <button onclick="filterCourses('bank')" class="course-tab-btn border border-goldPrimary/20 hover:border-goldPrimary px-4 py-2 rounded-lg text-xs font-semibold tracking-wider transition-all">BANKING</button>
+                </div>
+            </div>
+
+            <!-- Course Card Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="courseGrid">
+                
+                <!-- SSC Card -->
+                <div class="course-card glass-card rounded-2xl overflow-hidden shadow-xl" data-category="ssc">
+                    <div class="p-6 space-y-4">
+                        <div class="flex justify-between items-start">
+                            <span class="text-xs text-goldSecondary uppercase tracking-widest">SSC Segment</span>
+                            <span class="bg-goldPrimary/10 text-goldPrimary text-[10px] px-2 py-1 rounded">Daily Batches</span>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-goldPrimary">SSC CGL | CHSL | CPO | STENO</h3>
+                        <p class="text-xs text-gray-300 leading-relaxed" data-en="Complete foundational modules starting 28 Jan. Morning (9am) & Evening (2pm) cohorts with standard selection metrics." data-hi="28 जनवरी से शुरू होने वाला सम्पूर्ण बुनियादी पाठ्यक्रम। मानक चयन मानदंडों के साथ सुबह (9 बजे) और शाम (2 बजे) के बैच उपलब्ध।">
+                            Complete foundational modules starting 28 Jan. Morning (9am) & Evening (2pm) cohorts with standard selection metrics.
+                        </p>
+                        <div class="pt-4 border-t border-goldPrimary/10 flex justify-between items-center text-xs">
+                            <span class="text-gray-400">Duration: 12 Months</span>
+                            <a href="#admission" class="text-goldPrimary font-semibold hover:underline">Apply Info →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- State Card -->
+                <div class="course-card glass-card rounded-2xl overflow-hidden shadow-xl" data-category="state">
+                    <div class="p-6 space-y-4">
+                        <div class="flex justify-between items-start">
+                            <span class="text-xs text-goldSecondary uppercase tracking-widest">Rajasthan State</span>
+                            <span class="bg-red-500/10 text-red-400 text-[10px] px-2 py-1 rounded font-bold">10,644+ Vacancies</span>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-goldPrimary">LDC Recruitment Special</h3>
+                        <p class="text-xs text-gray-300 leading-relaxed" data-en="Targeted syllabus coverage with intensive practice worksheets, weekly mock standards and full physical study materials." data-hi="सघन अभ्यास पत्रक, साप्ताहिक मॉक परीक्षण मानकों और सम्पूर्ण प्रकाशित अध्ययन सामग्री के साथ केंद्रित पाठ्यक्रम कवरेज।">
+                            Targeted syllabus coverage with intensive practice worksheets, weekly mock standards and full physical study materials.
+                        </p>
+                        <div class="pt-4 border-t border-goldPrimary/10 flex justify-between items-center text-xs">
+                            <span class="text-gray-400">Start Time: 9:00 AM</span>
+                            <a href="#admission" class="text-goldPrimary font-semibold hover:underline">Apply Info →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- State CET Card -->
+                <div class="course-card glass-card rounded-2xl overflow-hidden shadow-xl" data-category="state">
+                    <div class="p-6 space-y-4">
+                        <div class="flex justify-between items-start">
+                            <span class="text-xs text-goldSecondary uppercase tracking-widest">Common Entrance</span>
+                            <span class="bg-goldPrimary/10 text-goldPrimary text-[10px] px-2 py-1 rounded">10+2 & Graduation</span>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-goldPrimary">CET Comprehensive Batch</h3>
+                        <p class="text-xs text-gray-300 leading-relaxed" data-en="Standard preparation layout covering basic language proficiency, general science metrics, and arithmetic operations." data-hi="बुनियादी भाषा प्रवीणता, सामान्य विज्ञान मेट्रिक्स और अंकगणितीय संचालन को कवर करने वाला मानक तैयारी बैच।">
+                            Standard preparation layout covering basic language proficiency, general science metrics, and arithmetic operations.
+                        </p>
+                        <div class="pt-4 border-t border-goldPrimary/10 flex justify-between items-center text-xs">
+                            <span class="text-gray-400">Morning & Evening Slots</span>
+                            <a href="#admission" class="text-goldPrimary font-semibold hover:underline">Apply Info →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Railway Card -->
+                <div class="course-card glass-card rounded-2xl overflow-hidden shadow-xl" data-category="railway">
+                    <div class="p-6 space-y-4">
+                        <div class="flex justify-between items-start">
+                            <span class="text-xs text-goldSecondary uppercase tracking-widest">Indian Railways</span>
+                            <span class="bg-goldPrimary/10 text-goldPrimary text-[10px] px-2 py-1 rounded">ALP / NTPC / RPF</span>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-goldPrimary">Railway Target Batch</h3>
+                        <p class="text-xs text-gray-300 leading-relaxed" data-en="Dedicated conceptual study framework for computer adaptive tests, general science essentials and critical reasoning modules." data-hi="कंप्यूटर आधारित परीक्षणों (CBT), सामान्य विज्ञान और महत्वपूर्ण रीजनिंग मॉड्यूल के लिए विशेष बैच।">
+                            Dedicated conceptual study framework for computer adaptive tests, general science essentials and critical reasoning modules.
+                        </p>
+                        <div class="pt-4 border-t border-goldPrimary/10 flex justify-between items-center text-xs">
+                            <span class="text-gray-400">7-Day Free Demo</span>
+                            <a href="#admission" class="text-goldPrimary font-semibold hover:underline">Apply Info →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bank Card -->
+                <div class="course-card glass-card rounded-2xl overflow-hidden shadow-xl" data-category="bank">
+                    <div class="p-6 space-y-4">
+                        <div class="flex justify-between items-start">
+                            <span class="text-xs text-goldSecondary uppercase tracking-widest">Banking Division</span>
+                            <span class="bg-goldPrimary/10 text-goldPrimary text-[10px] px-2 py-1 rounded">Foundation Series</span>
+                        </div>
+                        <h3 class="font-cinzel text-xl font-bold text-goldPrimary">Bank PO & Clerk (SBI / IBPS)</h3>
+                        <p class="text-xs text-gray-300 leading-relaxed" data-en="Advanced mathematical computation standards, reasoning logic matrices, and professional English language layouts." data-hi="उन्नत गणितीय गणना मानकों, रीजनिंग तर्क और बैंकिंग स्तर के अंग्रेजी भाषा पाठ्यक्रम का संयोजन।">
+                            Advanced mathematical computation standards, reasoning logic matrices, and professional English language layouts.
+                        </p>
+                        <div class="pt-4 border-t border-goldPrimary/10 flex justify-between items-center text-xs">
+                            <span class="text-gray-400">Evening Slot: 2:00 PM</span>
+                            <a href="#admission" class="text-goldPrimary font-semibold hover:underline">Apply Info →</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Books and Publications Section -->
+    <section id="books" class="py-24 px-4 max-w-7xl mx-auto">
+        <div class="text-center space-y-4 mb-16">
+            <span class="text-goldPrimary text-xs uppercase tracking-widest">Academic Publications</span>
+            <h2 class="font-cinzel text-3xl sm:text-4xl font-bold">Standard Study Material & Books</h2>
+            <div class="w-24 h-1 bg-gradient-to-r from-goldPrimary to-goldSecondary mx-auto"></div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            
+            <div class="glass-card p-6 rounded-2xl flex flex-col justify-between hover:border-goldPrimary transition-colors">
+                <div class="space-y-4">
+                    <div class="h-48 bg-luxuryDark rounded-xl flex items-center justify-center border border-goldPrimary/10 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-t from-goldPrimary/10 to-transparent"></div>
+                        <i class="fas fa-book text-5xl text-goldPrimary"></i>
+                    </div>
+                    <h4 class="font-cinzel text-sm font-bold text-goldPrimary">English Grammar Vol 01</h4>
+                    <p class="text-[10px] text-gray-400">Target Segment: SSC | NDA | CDS | Airforce</p>
+                </div>
+                <div class="pt-4 mt-4 border-t border-goldPrimary/10 flex items-center justify-between">
+                    <span class="text-xs text-goldSecondary">Pre-Order Now</span>
+                    <a href="https://wa.me/918875765454" target="_blank" class="text-xs text-goldPrimary font-semibold hover:underline">Order →</a>
+                </div>
+            </div>
+
+            <div class="glass-card p-6 rounded-2xl flex flex-col justify-between hover:border-goldPrimary transition-colors">
+                <div class="space-y-4">
+                    <div class="h-48 bg-luxuryDark rounded-xl flex items-center justify-center border border-goldPrimary/10 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-t from-goldPrimary/10 to-transparent"></div>
+                        <i class="fas fa-laptop-code text-5xl text-goldPrimary"></i>
+                    </div>
+                    <h4 class="font-cinzel text-sm font-bold text-goldPrimary">Computer Introduction</h4>
+                    <p class="text-[10px] text-gray-400">Theory + Chapter Assignment Modules</p>
+                </div>
+                <div class="pt-4 mt-4 border-t border-goldPrimary/10 flex items-center justify-between">
+                    <span class="text-xs text-goldSecondary">Sample Available</span>
+                    <a href="https://wa.me/918875765454" target="_blank" class="text-xs text-goldPrimary font-semibold hover:underline">Order →</a>
+                </div>
+            </div>
+
+            <div class="glass-card p-6 rounded-2xl flex flex-col justify-between hover:border-goldPrimary transition-colors">
+                <div class="space-y-4">
+                    <div class="h-48 bg-luxuryDark rounded-xl flex items-center justify-center border border-goldPrimary/10 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-t from-goldPrimary/10 to-transparent"></div>
+                        <i class="fas fa-brain text-5xl text-goldPrimary"></i>
+                    </div>
+                    <h4 class="font-cinzel text-sm font-bold text-goldPrimary">Reasoning Volume 01</h4>
+                    <p class="text-[10px] text-gray-400">Analytical & Logical Practice Metrics</p>
+                </div>
+                <div class="pt-4 mt-4 border-t border-goldPrimary/10 flex items-center justify-between">
+                    <span class="text-xs text-goldSecondary">Recommended</span>
+                    <a href="https://wa.me/918875765454" target="_blank" class="text-xs text-goldPrimary font-semibold hover:underline">Order →</a>
+                </div>
+            </div>
+
+            <div class="glass-card p-6 rounded-2xl flex flex-col justify-between hover:border-goldPrimary transition-colors">
+                <div class="space-y-4">
+                    <div class="h-48 bg-luxuryDark rounded-xl flex items-center justify-center border border-goldPrimary/10 relative overflow-hidden">
+                        <div class="absolute inset-0 bg-gradient-to-t from-goldPrimary/10 to-transparent"></div>
+                        <i class="fas fa-shield-halved text-5xl text-goldPrimary"></i>
+                    </div>
+                    <h4 class="font-cinzel text-sm font-bold text-goldPrimary">Delhi Police Booklet</h4>
+                    <p class="text-[10px] text-gray-400">Complete Fast-track Selection Layout</p>
+                </div>
+                <div class="pt-4 mt-4 border-t border-goldPrimary/10 flex items-center justify-between">
+                    <span class="text-xs text-goldSecondary">Hot Release</span>
+                    <a href="https://wa.me/918875765454" target="_blank" class="text-xs text-goldPrimary font-semibold hover:underline">Order →</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Student Dashboard Interactive Simulation -->
+    <section id="dashboards" class="py-24 luxury-gradient px-4">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-5 space-y-6">
+                <span class="text-goldPrimary text-xs uppercase tracking-widest">Interactive Portals</span>
+                <h2 class="font-cinzel text-3xl sm:text-4xl font-bold">Simulate Student & Parent Portals</h2>
+                <p class="text-xs text-gray-300 leading-relaxed" data-en="Experience our digital learning suite. Toggle below to review active metrics, performance curves and schedules on our simulated custom learning dashboards." data-hi="हमारे डिजिटल लर्निंग सूट का लाइव अनुभव करें। नीचे दिए बटनों से छात्र और अभिभावक पोर्टल को सिमुलेट कर लाइव प्रगति पत्रक देखें।">
+                    Experience our digital learning suite. Toggle below to review active metrics, performance curves and schedules on our simulated custom learning dashboards.
+                </p>
+                <div class="flex space-x-4">
+                    <button onclick="switchPortal('student')" id="portalBtnStudent" class="px-6 py-2.5 rounded-lg text-xs font-semibold tracking-wider transition-all bg-goldPrimary text-luxuryDark">STUDENT PANEL</button>
+                    <button onclick="switchPortal('parent')" id="portalBtnParent" class="px-6 py-2.5 rounded-lg text-xs font-semibold tracking-wider transition-all border border-goldPrimary/20 hover:border-goldPrimary">PARENT PANEL</button>
+                </div>
+            </div>
+
+            <!-- Dashboard Simulator Box -->
+            <div class="lg:col-span-7 glass-card p-6 rounded-3xl min-h-[400px] flex flex-col justify-between shadow-2xl relative border-goldPrimary/30">
+                
+                <!-- Dynamic Content Area -->
+                <div id="portalDisplay">
+                    <!-- Default Student Portal View -->
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-center border-b border-goldPrimary/20 pb-4">
+                            <div>
+                                <span class="text-[10px] uppercase text-gray-400">Logged in as Student</span>
+                                <h4 class="font-cinzel text-sm font-bold text-goldPrimary">Amit Sharma (SSC Aspirant)</h4>
+                            </div>
+                            <span class="bg-green-500/10 text-green-400 text-[10px] px-2 py-1 rounded font-bold">● Active Online</span>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="bg-luxuryDark/50 p-4 rounded-xl border border-goldPrimary/10">
+                                <span class="text-xs text-gray-400 block mb-2">Class Schedule Today</span>
+                                <p class="text-xs font-bold text-goldPrimary">Mathematics (Advance Geometry)</p>
+                                <span class="text-[10px] text-gray-400">Timings: 09:00 AM - 11:00 AM</span>
+                            </div>
+                            <div class="bg-luxuryDark/50 p-4 rounded-xl border border-goldPrimary/10">
+                                <span class="text-xs text-gray-400 block mb-2">Next Test Standard</span>
+                                <p class="text-xs font-bold text-goldPrimary">All India Mock Test series #14</p>
+                                <span class="text-[10px] text-gray-400">Syllabus: Quantitative & Vocabulary</span>
+                            </div>
+                        </div>
+
+                        <div class="bg-luxuryDark/50 p-4 rounded-xl border border-goldPrimary/10 space-y-2">
+                            <div class="flex justify-between text-xs">
+                                <span class="text-gray-400">Overall Course Progress</span>
+                                <span class="text-goldPrimary font-semibold">68% Syllabus Completed</span>
+                            </div>
+                            <div class="w-full bg-luxuryNavy h-2 rounded-full overflow-hidden">
+                                <div class="bg-gradient-to-r from-goldPrimary to-goldSecondary h-full rounded-full" style="width: 68%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="border-t border-goldPrimary/20 pt-4 flex items-center justify-between text-xs text-gray-400">
+                    <span>Demo Portal Sandbox</span>
+                    <span class="text-goldPrimary">Achievers Digital ERP 4.0</span>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Admission & Interactive Scholarship Form -->
+    <section id="admission" class="py-24 px-4 max-w-4xl mx-auto">
+        <div class="text-center space-y-4 mb-16">
+            <span class="text-goldPrimary text-xs uppercase tracking-widest">Direct Enrollment 2026</span>
+            <h2 class="font-cinzel text-3xl sm:text-4xl font-bold">Apply Online & Check Eligibility</h2>
+            <p class="text-xs text-gray-400 max-w-md mx-auto" data-en="Submit credentials directly for registration. Evaluate fee structure, verify discount codes, and choose selective batch layouts." data-hi="पंजीकरण के लिए सीधे विवरण जमा करें। शुल्क संरचना का मूल्यांकन करें और चुनिंदा बैच लेआउट चुनें।">Submit credentials directly for registration. Evaluate fee structure, verify discount codes, and choose selective batch layouts.</p>
+        </div>
+
+        <div class="glass-card p-8 rounded-3xl space-y-8 shadow-2xl">
+            <form onsubmit="handleAdmissionSubmit(event)" class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div class="space-y-1">
+                    <label class="text-xs text-gray-300 block">Aspirant Name *</label>
+                    <input type="text" required class="w-full bg-luxuryDark/80 border border-goldPrimary/20 rounded-lg p-3 text-sm focus:border-goldPrimary outline-none text-white">
+                </div>
+                <div class="space-y-1">
+                    <label class="text-xs text-gray-300 block">Mobile Connection *</label>
+                    <input type="tel" required class="w-full bg-luxuryDark/80 border border-goldPrimary/20 rounded-lg p-3 text-sm focus:border-goldPrimary outline-none text-white">
+                </div>
+                <div class="space-y-1">
+                    <label class="text-xs text-gray-300 block">Target Exam Batch *</label>
+                    <select required class="w-full bg-luxuryDark/80 border border-goldPrimary/20 rounded-lg p-3 text-sm focus:border-goldPrimary outline-none text-white">
+                        <option value="ssc">SSC Complete Foundation Batch</option>
+                        <option value="ldc">Rajasthan LDC Recruitment Special</option>
+                        <option value="cet">CET Combined Course</option>
+                        <option value="railway">Railway Technical ALP / RPF</option>
+                        <option value="bank">Bank PO & Clerk Foundation</option>
+                    </select>
+                </div>
+                <div class="space-y-1">
+                    <label class="text-xs text-gray-300 block">Academic Background *</label>
+                    <select required class="w-full bg-luxuryDark/80 border border-goldPrimary/20 rounded-lg p-3 text-sm focus:border-goldPrimary outline-none text-white">
+                        <option value="graduated">Graduate Degree Holder</option>
+                        <option value="undergraduate">Undergraduate Student</option>
+                        <option value="twelfth">Completed 12th Standard</option>
+                    </select>
+                </div>
+                <div class="sm:col-span-2 pt-4">
+                    <button type="submit" class="w-full bg-gradient-to-r from-goldPrimary to-goldSecondary text-luxuryDark py-4 rounded-xl text-sm font-bold uppercase tracking-wider hover:opacity-95 transition-opacity">
+                        Submit My Application Registration
+                    </button>
+                </div>
+            </form>
+            <div id="formSuccessMsg" class="hidden text-center p-4 bg-green-500/10 text-green-400 border border-green-500/20 rounded-xl text-xs">
+                Your Demo Seat has been successfully reserved! Our admissions desk will contact you via mobile shortly.
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Location and Map -->
+    <section class="py-24 luxury-gradient px-4">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            
+            <div class="lg:col-span-5 space-y-6">
+                <span class="text-goldPrimary text-xs uppercase tracking-widest">Connect with Us</span>
+                <h2 class="font-cinzel text-3xl sm:text-4xl font-bold">Visit Bikaner Campus</h2>
+                <p class="text-xs text-gray-300 leading-relaxed" data-en="Come visit us to view our infrastructure and browse published materials. Find precise directions via Google Maps integrations below." data-hi="हमारे बुनियादी ढांचे और प्रकाशित सामग्रियों को देखने के लिए परिसर का दौरा करें। गूगल मैप्स एकीकरण के माध्यम से सटीक दिशा-निर्देश प्राप्त करें।">
+                    Come visit us to view our infrastructure and browse published materials. Find precise directions via Google Maps integrations below.
+                </p>
+                
+                <div class="space-y-4 text-xs text-gray-300">
+                    <div class="flex items-start space-x-3">
+                        <i class="fas fa-location-dot text-goldPrimary mt-0.5"></i>
+                        <span data-en="4-D-35, JNV Murti Circle, Sector 4, Jai Narayan Vyas Colony, Bikaner, Rajasthan 334001" data-hi="4-D-35, जेएनवी मूर्ति सर्किल, सेक्टर 4, जय नारायण व्यास कॉलोनी, बीकानेर, राजस्थान 334001">4-D-35, JNV Murti Circle, Sector 4, Jai Narayan Vyas Colony, Bikaner, Rajasthan 334001</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <i class="fas fa-phone text-goldPrimary"></i>
+                        <span>+91 88757 65454 / +91 95214 35454</span>
+                    </div>
+                    <div class="flex items-center space-x-3">
+                        <i class="fas fa-clock text-goldPrimary"></i>
+                        <span data-en="Open 24 Hours (Counseling available: 9:00 AM - 7:00 PM)" data-hi="24 घंटे खुला (परामर्श उपलब्ध: सुबह 9:00 बजे से शाम 7:00 बजे तक)">Open 24 Hours (Counseling available: 9:00 AM - 7:00 PM)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map Iframe Container -->
+            <div class="lg:col-span-7 h-[350px] rounded-3xl overflow-hidden border border-goldPrimary/30 shadow-2xl">
+                <!-- Standardized Bikaner JNV Murti Circle Coordinate Mock Map -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.957640243292!2d73.3444062!3d27.9942361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393f972b2ab68ed7%3A0x6b74794e772ea44e!2sAchievers%20Academy%20Bikaner!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                        class="w-full h-full border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer Area -->
+    <footer class="bg-luxuryDark border-t border-goldPrimary/20 py-12 px-4 text-center text-xs text-gray-500">
+        <div class="max-w-7xl mx-auto space-y-6">
+            <h3 class="font-cinzel text-base font-bold text-goldPrimary tracking-widest">ACHIEVERS ACADEMY</h3>
+            <p class="max-w-md mx-auto text-gray-400" data-en="Bikaner's Premier Institute led by Inspectors. Empowering successful government careers since inception." data-hi="इंस्पेक्टरों के नेतृत्व में बीकानेर का सर्वश्रेष्ठ संस्थान। स्थापना के समय से ही सफल सरकारी करियर को सशक्त बनाना।">Bikaner's Premier Institute led by Inspectors. Empowering successful government careers since inception.</p>
+            <div class="flex justify-center space-x-6 text-sm">
+                <a href="https://wa.me/918875765454" target="_blank" class="hover:text-goldPrimary"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" class="hover:text-goldPrimary"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-goldPrimary"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p class="pt-6 border-t border-goldPrimary/10">© 2026 Achievers Academy. Designed & Programmed for Absolute Excellence.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive Script Systems -->
+    <script>
+        let currentLang = 'en';
+
+        function toggleLanguage() {
+            const btn = document.getElementById('langBtnText');
+            const enElements = document.querySelectorAll('[data-en]');
+            
+            if (currentLang === 'en') {
+                currentLang = 'hi';
+                btn.innerText = 'ENGLISH';
+                enElements.forEach(el => {
+                    el.setAttribute('data-original-text', el.innerText);
+                    el.innerText = el.getAttribute('data-hi');
+                });
+            } else {
+                currentLang = 'en';
+                btn.innerText = 'HINDI';
+                enElements.forEach(el => {
+                    el.innerText = el.getAttribute('data-en');
+                });
+            }
+        }
+
+        function filterCourses(category) {
+            const cards = document.querySelectorAll('.course-card');
+            const buttons = document.querySelectorAll('.course-tab-btn');
+            
+            // Toggle active styling
+            buttons.forEach(btn => {
+                btn.classList.remove('active', 'bg-goldPrimary', 'text-luxuryDark');
+                btn.classList.add('border', 'border-goldPrimary/20');
+            });
+            event.target.classList.add('active', 'bg-goldPrimary', 'text-luxuryDark');
+            event.target.classList.remove('border', 'border-goldPrimary/20');
+
+            cards.forEach(card => {
+                if (category === 'all' || card.getAttribute('data-category') === category) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        function switchPortal(portal) {
+            const display = document.getElementById('portalDisplay');
+            const btnStudent = document.getElementById('portalBtnStudent');
+            const btnParent = document.getElementById('portalBtnParent');
+
+            if (portal === 'student') {
+                btnStudent.className = "px-6 py-2.5 rounded-lg text-xs font-semibold tracking-wider transition-all bg-goldPrimary text-luxuryDark";
+                btnParent.className = "px-6 py-2.5 rounded-lg text-xs font-semibold tracking-wider transition-all border border-goldPrimary/20 hover:border-goldPrimary";
+                display.innerHTML = `
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-center border-b border-goldPrimary/20 pb-4">
+                            <div>
+                                <span class="text-[10px] uppercase text-gray-400">Logged in as Student</span>
+                                <h4 class="font-cinzel text-sm font-bold text-goldPrimary">Amit Sharma (SSC Aspirant)</h4>
+                            </div>
+                            <span class="bg-green-500/10 text-green-400 text-[10px] px-2 py-1 rounded font-bold">● Active Online</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="bg-luxuryDark/50 p-4 rounded-xl border border-goldPrimary/10">
+                                <span class="text-xs text-gray-400 block mb-2">Class Schedule Today</span>
+                                <p class="text-xs font-bold text-goldPrimary">Mathematics (Advance Geometry)</p>
+                                <span class="text-[10px] text-gray-400">Timings: 09:00 AM - 11:00 AM</span>
+                            </div>
+                            <div class="bg-luxuryDark/50 p-4 rounded-xl border border-goldPrimary/10">
+                                <span class="text-xs text-gray-400 block mb-2">Next Test Standard</span>
+                                <p class="text-xs font-bold text-goldPrimary">All India Mock Test series #14</p>
+                                <span class="text-[10px] text-gray-400">Syllabus: Quantitative & Vocabulary</span>
+                            </div>
+                        </div>
+                        <div class="bg-luxuryDark/50 p-4 rounded-xl border border-goldPrimary/10 space-y-2">
+                            <div class="flex justify-between text-xs">
+                                <span class="text-gray-400">Overall Course Progress</span>
+                                <span class="text-goldPrimary font-semibold">68% Syllabus Completed</span>
+                            </div>
+                            <div class="w-full bg-luxuryNavy h-2 rounded-full overflow-hidden">
+                                <div class="bg-gradient-to-r from-goldPrimary to-goldSecondary h-full rounded-full" style="width: 68%"></div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } else {
+                btnParent.className = "px-6 py-2.5 rounded-lg text-xs font-semibold tracking-wider transition-all bg-goldPrimary text-luxuryDark";
+                btnStudent.className = "px-6 py-2.5 rounded-lg text-xs font-semibold tracking-wider transition-all border border-goldPrimary/20 hover:border-goldPrimary";
+                display.innerHTML = `
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-center border-b border-goldPrimary/20 pb-4">
+                            <div>
+                                <span class="text-[10px] uppercase text-gray-400">Logged in as Parent</span>
+                                <h4 class="font-cinzel text-sm font-bold text-goldPrimary">Mr. Rajesh Sharma (Guardian)</h4>
+                            </div>
+                            <span class="bg-goldPrimary/10 text-goldPrimary text-[10px] px-2 py-1 rounded font-bold">Guardian Verified</span>
+                        </div>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div class="bg-luxuryDark/50 p-4 rounded-xl border border-goldPrimary/10 text-center">
+                                <span class="text-xs text-gray-400 block mb-1">Student Attendance</span>
+                                <p class="text-2xl font-bold text-green-400">94.2%</p>
+                                <span class="text-[10px] text-gray-500">Exceeding standard criteria</span>
+                            </div>
+                            <div class="bg-luxuryDark/50 p-4 rounded-xl border border-goldPrimary/10 text-center">
+                                <span class="text-xs text-gray-400 block mb-1">Latest Test Percentile</span>
+                                <p class="text-2xl font-bold text-goldPrimary">91.6 %ile</p>
+                                <span class="text-[10px] text-gray-500">Rank #23 of Bikaner Batch</span>
+                            </div>
+                        </div>
+                        <div class="bg-luxuryDark/50 p-4 rounded-xl border border-goldPrimary/10">
+                            <p class="text-xs text-gray-300">💡 <strong class="text-goldPrimary">Mentor Remarks:</strong> Amit has shown immense conceptual growth in geometry assignments. Advised to revise advanced algebra practice metrics weekly.</p>
+                        </div>
+                    </div>
+                `;
+            }
+        }
+
+        function handleAdmissionSubmit(event) {
+            event.preventDefault();
+            document.getElementById('formSuccessMsg').classList.remove('hidden');
+            event.target.reset();
+        }
+    </script>
+</body>
+</html>
