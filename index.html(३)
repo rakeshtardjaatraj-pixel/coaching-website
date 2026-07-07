@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
+{
+  "institute": {
+    "name": "Achievers Academy",
+    "location": "JNV Colony, Bikaner, Rajasthan",
+    "tagline_en": "Knowledge to go places",
+    "tagline_hi": "बह रहा है विश्वास, बढ़ रहे हैं ACHIEVERS",
+    "rating": "4.5 / 5 (238 Google Reviews)",
+    "notable_achievement": "200+ Selections in First Year"
+  },
+  "upcoming_batches": {
+    "start_date": "28 Jan 2026",
+    "programs": [
+      {"name": "SSC Complete Foundation", "time": "9:00 AM - 1:00 PM | 2:00 PM - 6:00 PM"},
+      {"name": "Rajasthan LDC Special", "time": "9:00 AM"},
+      {"name": "Railway (ALP / NTPC / RPF)", "time": "9:00 AM | 2:00 PM"},
+      {"name": "CET (10+2 & Graduation)", "time": "9:00 AM | 2:00 PM"},
+      {"name": "Bank PO & Clerk", "time": "2:00 PM"}
+    ]
+  }
+}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Achievers Academy Bikaner | Premier Coaching for SSC, RPSC, Railway & Banking</title>
